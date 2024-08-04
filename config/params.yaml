@@ -1,0 +1,16 @@
+accurate_model:
+  ros__parameters:
+    direction_min: -1.0
+    direction_max: 1.0
+    publish_frequency: 1.0
+
+heuristic_model:
+  ros__parameters:
+    heuristic_multiplier: 1.05
+    publish_frequency: 5.0
+
+controller:
+  ros__parameters:
+    cmd_topic: '/mavros/setpoint_velocity/cmd_vel'
+    linear_velocity: 1.0
+    angular_speed_factor: 1.0
