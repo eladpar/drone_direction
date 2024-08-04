@@ -62,7 +62,6 @@ The package uses a `params.yaml` file located in the `config` directory to confi
 - **controller**:
   - `cmd_topic`: The ROS2 topic for publishing velocity commands.
   - `linear_velocity`: The speed at which the drone moves.
-  - `angular_speed_factor`: A factor that determines how the drone turns based on the direction data.
 
 To modify these parameters, you can edit the `params.yaml` file and then rebuild the package.
 
